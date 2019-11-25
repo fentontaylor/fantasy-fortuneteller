@@ -24,6 +24,11 @@ FF makes use of a secondary Sinatra app (link [here](https://github.com/fentonta
 
 To view the testing suite, please run `rspec` from the root directory `/fantasy-fortuneteller`
 
+## Future Iterations
+- Compare projected vs. performance calculations for the past 3 weeks to determine if a player is hot or cold.
+- Calculate confidence intervals from each players historical data to give users the option to see projections as a range.
+- Compile and process historical play-by-play data to build a machine learning algorithm to create our own projections.
+
 ## Behind the Scenes
 
 - Ruby 2.4.1
