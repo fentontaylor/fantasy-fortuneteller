@@ -25,6 +25,7 @@ FF makes use of a secondary Sinatra app (link [here](https://github.com/fentonta
 To view the testing suite, please run `rspec` from the root directory `/fantasy-fortuneteller`
 
 ## Future Iterations
+Originally, we had hoped to complete one or all of the following features for out MVP. However, finding access to data that was both affordable and throrough enough for our purposes turned out to be more challenging than anticipated. Given more time, we could have pulled in enough data from addidtional sources and built a more robust API necessary for the data analysis and machine learning we wanted to build. But given the timeframe of the project, we decided to redefine the scope of our MVP and focus on the following features in future iterations:
 - Compare projected vs. performance calculations for the past 3 weeks to determine if a player is hot or cold.
 - Calculate confidence intervals from each players historical data to give users the option to see projections as a range.
 - Compile and process historical play-by-play data to build a machine learning algorithm to create our own projections.
